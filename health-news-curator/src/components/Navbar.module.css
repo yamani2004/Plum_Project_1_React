@@ -1,0 +1,50 @@
+/* src/styles/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #61dafb;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  
+  .darkModeNavbar {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 12px;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .refreshBtn {
+    background-color: #ffcb05;
+    color: #333;
+  }
+  
+  .modeBtn {
+    background-color: #333;
+    color: white;
+  }
+  
+  .modeBtn:hover, .refreshBtn:hover {
+    opacity: 0.85;
+  }
+  
